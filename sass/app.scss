@@ -8,10 +8,10 @@
     @include resetAll();
 }
 
-header  {
+.header  {
     @include centreStyle();
     padding: 10px;
-    background-color: $main-backgroundcolor;
+    background-color: $main-background-color;
 
     .logo   {
         width:30% ;
@@ -31,30 +31,29 @@ header  {
 
         .nav__item:hover  {
             cursor: pointer;
-            background-color: white;
+            background-color: $color-white;
         }
     }
 
     .account    {
         width: 30%;
-        // gap: 30px;
         text-align: center;
         
-        .account__item  {
-            color: black;
+        &__item  {
+            color: $color-black;
             padding: 10px 15px;
             border-radius: 5px;
             @include resetButton();
-            background-color: $main-backgroundcolor;
+            background-color: $main-background-color;
         }
 
-        .account__item:last-child  {
+        &__item:last-child  {
             color: white;
             background-color: $main-color;
             margin-left: 5px;
         }
 
-        .account__item:hover    {
+        &__item:hover    {
             cursor: pointer;
         }
     }
