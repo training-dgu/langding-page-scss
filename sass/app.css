@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: #F5F7FA;
+}
+.header .logo {
+  width: 30%;
+  text-align: center;
+}
+.header .nav {
+  width: 40%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header .nav .nav__item {
+  height: 100%;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+}
+.header .nav .__item:hover {
+  cursor: pointer;
+  background-color: white;
+}
+.header .account {
+  width: 30%;
+  text-align: center;
+}
+.header .account__item {
+  color: black;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #F5F7FA;
+}
+.header .account__item:last-child {
+  color: white;
+  background-color: #4CAF4F;
+  margin-left: 5px;
+}
+.header .account__item:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=app.css.map */

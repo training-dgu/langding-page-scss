@@ -1,0 +1,63 @@
+
+@import 'header';
+@import 'variables';
+@import 'mixins';
+@import 'resets';
+
+*   {
+    @include resetAll();
+}
+
+.header  {
+    @include centreStyle();
+    padding: 10px;
+    background-color: $main-background-color;
+
+    .logo   {
+        width:30% ;
+        text-align: center;
+    }
+
+    .nav    {
+        width: 40%;
+        @include resetList();
+        @include centreStyle();
+
+        .&__item  {
+            height: 100%;
+            padding: 20px;
+            @include resetlink();
+        }
+
+        .&__item:hover  {
+            cursor: pointer;
+            background-color: $color-white;
+        }
+    }
+
+    .account    {
+        width: 30%;
+        text-align: center;
+        
+        &__item  {
+            color: $color-black;
+            padding: 10px 15px;
+            border-radius: 5px;
+            @include resetButton();
+            background-color: $main-background-color;
+        }
+
+        &__item:last-child  {
+            color: white;
+            background-color: $main-color;
+            margin-left: 5px;
+        }
+
+        &__item:hover    {
+            cursor: pointer;
+        }
+    }
+}
+
+
+
