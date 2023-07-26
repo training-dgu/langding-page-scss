@@ -23,13 +23,13 @@
         @include resetList();
         @include centreStyle();
 
-        .nav__item  {
+        .&__item  {
             height: 100%;
             padding: 20px;
             @include resetlink();
         }
 
-        .nav__item:hover  {
+        .&__item:hover  {
             cursor: pointer;
             background-color: $color-white;
         }
