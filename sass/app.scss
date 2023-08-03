@@ -76,10 +76,12 @@
 
         &-desc  {
             @include style-desc();
+            margin-top: 16px;
         }
 
         &-btn   {
             @include style-btn();
+            margin-top: 32px;
         }
     }
 
