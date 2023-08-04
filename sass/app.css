@@ -11,7 +11,7 @@
   justify-content: space-around;
   align-items: center;
   padding: 10px;
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
 }
 .header .logo {
   width: 30%;
@@ -43,11 +43,11 @@
   padding: 10px 15px;
   border-radius: 5px;
   border: none;
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
 }
 .header .account__item:last-child {
   color: white;
-  background-color: #4CAF4F;
+  background-color: #4caf4f;
   margin-left: 5px;
 }
 .header .account__item:hover {
@@ -59,12 +59,12 @@
   justify-content: space-around;
   align-items: center;
   height: 599px;
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
   justify-content: center;
   gap: 104px;
 }
 .content__introduce-title {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-style: normal;
   font-size: 64px;
@@ -72,7 +72,7 @@
   line-height: 76px;
 }
 .content__introduce-desc {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -82,7 +82,7 @@
 }
 .content__introduce-btn {
   border: none;
-  background-color: #4CAF4F;
+  background-color: #4caf4f;
   color: white;
   padding: 14px 32px;
   border-radius: 5px;
@@ -92,7 +92,7 @@
   width: 391px;
   height: 407px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .clients {
@@ -106,7 +106,7 @@
   justify-content: center;
 }
 .clients__title {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-style: normal;
   font-size: 36px;
@@ -114,7 +114,7 @@
   line-height: 44px;
 }
 .clients__desc {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -137,7 +137,7 @@
   flex-direction: column;
 }
 .community__title {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-style: normal;
   font-size: 36px;
@@ -147,7 +147,7 @@
   text-align: center;
 }
 .community__desc {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -170,7 +170,7 @@
   padding: 24px 32px;
 }
 .community .frame__item-title {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-style: normal;
   font-size: 28px;
@@ -179,7 +179,7 @@
   margin: 16px 0px 8px 0px;
 }
 .community .frame__item-desc {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -198,14 +198,14 @@
   width: 442px;
   height: 433px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .unlock__introduce {
   width: 661px;
   height: 268px;
 }
 .unlock__introduce-title {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-style: normal;
   font-size: 36px;
@@ -213,7 +213,7 @@
   line-height: 44px;
 }
 .unlock__introduce-desc {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -223,7 +223,7 @@
 }
 .unlock__introduce-btn {
   border: none;
-  background-color: #4CAF4F;
+  background-color: #4caf4f;
   color: white;
   padding: 14px 32px;
   border-radius: 5px;
@@ -234,19 +234,19 @@
   justify-content: space-around;
   align-items: center;
   padding: 64px 144px;
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
 }
 .achievements__introduce-title {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-style: normal;
-  color: #4CAF4F;
+  color: #4caf4f;
   font-size: 36px;
   font-weight: 600;
   line-height: 44px;
 }
 .achievements__introduce-desc {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -274,4 +274,4 @@
 .achievements .statistical .row .col__img {
   width: 48px;
   height: 48px;
-}/*# sourceMappingURL=app.css.map */
+} /*# sourceMappingURL=app.css.map */
