@@ -92,7 +92,7 @@
   width: 391px;
   height: 407px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .clients {
@@ -198,7 +198,7 @@
   width: 442px;
   height: 433px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 .unlock__introduce {
   width: 661px;
@@ -344,6 +344,9 @@
   margin-left: 8px;
 }
 
+.communityUpdates {
+  margin-top: 48px;
+}
 .communityUpdates__title {
   margin-bottom: 8px;
   color: #4d4d4d;
@@ -493,4 +496,4 @@
 }
 .footer__introduce .footerRow__email {
   transform: translate(230px, -30px);
-} /*# sourceMappingURL=app.css.map */
+}/*# sourceMappingURL=app.css.map */
