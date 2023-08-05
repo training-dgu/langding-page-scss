@@ -74,8 +74,8 @@
     }
 
     &-desc {
-      margin-top: 16px;
       @include style-desc();
+      margin-top: 16px;
     }
 
     &-btn {

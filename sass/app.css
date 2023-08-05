@@ -11,7 +11,7 @@
   justify-content: space-around;
   align-items: center;
   padding: 10px;
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
 }
 .header .logo {
   width: 30%;
@@ -43,11 +43,11 @@
   padding: 10px 15px;
   border-radius: 5px;
   border: none;
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
 }
 .header .account__item:last-child {
   color: white;
-  background-color: #4CAF4F;
+  background-color: #4caf4f;
   margin-left: 5px;
 }
 .header .account__item:hover {
@@ -59,12 +59,12 @@
   justify-content: space-around;
   align-items: center;
   height: 599px;
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
   justify-content: center;
   gap: 104px;
 }
 .content__introduce-title {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-style: normal;
   font-size: 64px;
@@ -72,18 +72,18 @@
   line-height: 76px;
 }
 .content__introduce-desc {
-  margin-top: 16px;
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+  margin-top: 16px;
 }
 .content__introduce-btn {
   margin-top: 32px;
   border: none;
-  background-color: #4CAF4F;
+  background-color: #4caf4f;
   color: white;
   padding: 14px 32px;
   border-radius: 5px;
@@ -106,7 +106,7 @@
   justify-content: center;
 }
 .clients__title {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-style: normal;
   font-size: 36px;
@@ -114,7 +114,7 @@
   line-height: 44px;
 }
 .clients__desc {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -137,7 +137,7 @@
   flex-direction: column;
 }
 .community__title {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-style: normal;
   font-size: 36px;
@@ -147,7 +147,7 @@
   text-align: center;
 }
 .community__desc {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -170,7 +170,7 @@
   padding: 24px 32px;
 }
 .community .frame__item-title {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-style: normal;
   font-size: 28px;
@@ -179,7 +179,7 @@
   margin: 16px 0px 8px 0px;
 }
 .community .frame__item-desc {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -205,7 +205,7 @@
   height: 268px;
 }
 .unlock__introduce-title {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-style: normal;
   font-size: 36px;
@@ -213,7 +213,7 @@
   line-height: 44px;
 }
 .unlock__introduce-desc {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -223,7 +223,7 @@
 }
 .unlock__introduce-btn {
   border: none;
-  background-color: #4CAF4F;
+  background-color: #4caf4f;
   color: white;
   padding: 14px 32px;
   border-radius: 5px;
@@ -234,19 +234,19 @@
   justify-content: space-around;
   align-items: center;
   padding: 64px 144px;
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
 }
 .achievements__introduce-title {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-style: normal;
-  color: #4CAF4F;
+  color: #4caf4f;
   font-size: 36px;
   font-weight: 600;
   line-height: 44px;
 }
 .achievements__introduce-desc {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -284,7 +284,7 @@
   align-items: center;
   justify-content: center;
   gap: 78px;
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
 }
 .custommer__img {
   height: 326px;
@@ -295,7 +295,7 @@
   height: 324px;
 }
 .custommer__introduce-text {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -308,7 +308,7 @@
 }
 .custommer__introduce-author {
   margin-bottom: 8px;
-  color: #4CAF4F;
+  color: #4caf4f;
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
@@ -316,7 +316,7 @@
   line-height: 28px;
 }
 .custommer__introduce-note {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -333,8 +333,8 @@
 }
 .custommer__introduce .custommerclient__btn {
   border: none;
-  color: #4CAF4F;
-  background-color: #F5F7FA;
+  color: #4caf4f;
+  background-color: #f5f7fa;
 }
 .custommer__introduce .custommerclient__btn-img {
   font-size: 20px;
@@ -346,7 +346,7 @@
 
 .communityUpdates__title {
   margin-bottom: 8px;
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-style: normal;
   font-size: 36px;
@@ -355,7 +355,7 @@
   text-align: center;
 }
 .communityUpdates__desc {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -389,12 +389,12 @@
   padding: 16px;
   border-radius: 20px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
   margin: auto;
   transform: translateY(-130px);
 }
 .communityUpdates .frame15__introduce .frame15__content-desc {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -410,15 +410,15 @@
   border: none;
   height: 44px;
   align-items: center;
-  color: #4CAF4F;
-  background-color: #F5F7FA;
+  color: #4caf4f;
+  background-color: #f5f7fa;
 }
 
 .frame16 {
   height: 300px;
   text-align: center;
   padding: 32px 0px;
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
 }
 .frame16__title {
   color: #263238;
@@ -433,7 +433,7 @@
 .frame16__btn {
   border: none;
   color: white;
-  background-color: #4CAF4F;
+  background-color: #4caf4f;
   padding: 14px 32px;
   border-radius: 5px;
 }
