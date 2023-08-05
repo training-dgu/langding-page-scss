@@ -92,7 +92,7 @@
   width: 391px;
   height: 407px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .clients {
@@ -198,7 +198,7 @@
   width: 442px;
   height: 433px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .unlock__introduce {
   width: 661px;
@@ -449,7 +449,7 @@
   background-color: #263238;
 }
 .footer__address-desc {
-  color: #F5F7FA;
+  color: #f5f7fa;
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
@@ -477,7 +477,7 @@
   margin-bottom: 12px;
 }
 .footer__introduce .footerRow__desc {
-  color: #F5F7FA;
+  color: #f5f7fa;
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
@@ -488,9 +488,9 @@
 .footer__introduce .footerRow__text {
   padding: 10px;
   border-radius: 10px;
-  color: #D9DBE1;
+  color: #d9dbe1;
   background-color: #5b5555;
 }
 .footer__introduce .footerRow__email {
   transform: translate(230px, -30px);
-}/*# sourceMappingURL=app.css.map */
+} /*# sourceMappingURL=app.css.map */
