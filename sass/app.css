@@ -92,7 +92,7 @@
   width: 391px;
   height: 407px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .clients {
@@ -198,7 +198,7 @@
   width: 442px;
   height: 433px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 .unlock__introduce {
   width: 661px;
@@ -276,7 +276,7 @@
   height: 48px;
 }
 
-.custommer {
+.customer {
   height: 390px;
   padding: 32px 144px;
   display: flex;
@@ -286,15 +286,15 @@
   gap: 78px;
   background-color: #f5f7fa;
 }
-.custommer__img {
+.customer__img {
   height: 326px;
   width: 326px;
 }
-.custommer__introduce {
+.customer__introduce {
   width: 748px;
   height: 324px;
 }
-.custommer__introduce-text {
+.customer__introduce-text {
   color: #4d4d4d;
   font-family: Inter;
   font-size: 16px;
@@ -306,7 +306,7 @@
   font-weight: 500;
   line-height: 24px;
 }
-.custommer__introduce-author {
+.customer__introduce-author {
   margin-bottom: 8px;
   color: #4caf4f;
   font-family: Inter;
@@ -315,7 +315,7 @@
   font-weight: 600;
   line-height: 28px;
 }
-.custommer__introduce-note {
+.customer__introduce-note {
   color: #4d4d4d;
   font-family: Inter;
   font-size: 16px;
@@ -327,16 +327,16 @@
   font-weight: 400;
   line-height: 24px;
 }
-.custommer__introduce .custommerclient {
+.customer__introduce .customerclient {
   display: flex;
   justify-content: space-between;
 }
-.custommer__introduce .custommerclient__btn {
+.customer__introduce .customerclient__btn {
   border: none;
   color: #4caf4f;
   background-color: #f5f7fa;
 }
-.custommer__introduce .custommerclient__btn-img {
+.customer__introduce .customerclient__btn-img {
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -344,10 +344,10 @@
   margin-left: 8px;
 }
 
-.communityUpdates {
+.community-updates {
   margin-top: 48px;
 }
-.communityUpdates__title {
+.community-updates__title {
   margin-bottom: 8px;
   color: #4d4d4d;
   font-family: Inter;
@@ -357,7 +357,7 @@
   line-height: 44px;
   text-align: center;
 }
-.communityUpdates__desc {
+.community-updates__desc {
   color: #4d4d4d;
   font-family: Inter;
   font-size: 16px;
@@ -371,7 +371,7 @@
   line-height: 24px;
   text-align: center;
 }
-.communityUpdates .frame15 {
+.community-updates .community-list {
   margin-top: 16px;
   padding: 0px 144px;
   display: flex;
@@ -379,14 +379,14 @@
   align-items: center;
   justify-content: space-between;
 }
-.communityUpdates .frame15__introduce {
+.community-updates .community-list__introduce {
   text-align: center;
 }
-.communityUpdates .frame15__introduce-img {
+.community-updates .community-list__introduce-img {
   width: 368px;
   height: 286px;
 }
-.communityUpdates .frame15__introduce .frame15__content {
+.community-updates .community-list__introduce .community-list__content {
   width: 317px;
   height: 176px;
   padding: 16px;
@@ -396,7 +396,7 @@
   margin: auto;
   transform: translateY(-130px);
 }
-.communityUpdates .frame15__introduce .frame15__content-desc {
+.community-updates .community-list__introduce .community-list__content-desc {
   color: #4d4d4d;
   font-family: Inter;
   font-size: 16px;
@@ -409,7 +409,7 @@
   line-height: 28px;
   margin-bottom: 16px;
 }
-.communityUpdates .frame15__introduce .frame15__content-btn {
+.community-updates .community-list__introduce .community-list__content-btn {
   border: none;
   height: 44px;
   align-items: center;
@@ -417,13 +417,13 @@
   background-color: #f5f7fa;
 }
 
-.frame16 {
+.getDemo {
   height: 300px;
   text-align: center;
   padding: 32px 0px;
   background-color: #f5f7fa;
 }
-.frame16__title {
+.getDemo__title {
   color: #263238;
   text-align: center;
   font-family: Inter;
@@ -433,7 +433,7 @@
   line-height: 76px;
   margin-bottom: 32px;
 }
-.frame16__btn {
+.getDemo__btn {
   border: none;
   color: white;
   background-color: #4caf4f;
@@ -496,4 +496,4 @@
 }
 .footer__introduce .footerRow__email {
   transform: translate(230px, -30px);
-} /*# sourceMappingURL=app.css.map */
+}/*# sourceMappingURL=app.css.map */
