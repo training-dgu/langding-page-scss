@@ -8,8 +8,8 @@
 }
 
 .header {
-  @include centreStyle();
-  padding: 10px;
+  width: 100%;
+  display: flex;
   background-color: $main-background-color;
 
   .logo {
@@ -20,7 +20,6 @@
   .nav {
     width: 40%;
     @include resetList();
-    @include centreStyle();
 
     &__item {
       height: 100%;
@@ -454,6 +453,71 @@
       &__email {
         transform: translate(230px, -30px);
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 739px) {
+  .header {
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    .logo {
+      width: 50%;
+      order: 1;
+    }
+
+    .nav {
+      width: 100%;
+      order: 3;
+      margin-top: 20px;
+
+      &__item {
+        display: block;
+      }
+    }
+
+    .account {
+      width: 50%;
+      order: 2;
+    }
+  }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 1110px) {
+  .header {
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    .logo {
+      width: 50%;
+      order: 1;
+    }
+
+    .nav {
+      width: 100%;
+      order: 3;
+      margin-top: 20px;
+
+      &__item {
+        display: block;
+        float: left;
+        width: calc(100vw / 3);
+      }
+    }
+
+    .account {
+      width: 50%;
+      order: 2;
+    }
+  }
+}
+
+@media only screen and (min-width: 1111px) {
+  .header {
+    padding: 10px;
+    @include centreStyle();
+
+    .nav {
+      @include centreStyle();
     }
   }
 }
