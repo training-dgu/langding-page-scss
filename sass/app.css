@@ -13,7 +13,9 @@
 }
 .header .logo {
   width: 30%;
-  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 .header .nav {
   width: 40%;
@@ -87,7 +89,7 @@
   width: 391px;
   height: 407px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .clients {
@@ -193,7 +195,7 @@
   width: 442px;
   height: 433px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 .unlock__introduce {
   width: 661px;
@@ -503,12 +505,7 @@
     order: 1;
   }
   .header .nav {
-    width: 100%;
-    order: 3;
-    margin-top: 20px;
-  }
-  .header .nav__item {
-    display: block;
+    display: none;
   }
   .header .account {
     width: 50%;
@@ -525,14 +522,7 @@
     order: 1;
   }
   .header .nav {
-    width: 100%;
-    order: 3;
-    margin-top: 20px;
-  }
-  .header .nav__item {
-    display: block;
-    float: left;
-    width: 33.3333333333vw;
+    display: none;
   }
   .header .account {
     width: 50%;
@@ -551,4 +541,4 @@
     justify-content: space-around;
     align-items: center;
   }
-} /*# sourceMappingURL=app.css.map */
+}/*# sourceMappingURL=app.css.map */

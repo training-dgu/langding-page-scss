@@ -26,3 +26,61 @@
   padding: 14px 32px;
   border-radius: 5px;
 }
+
+@mixin mobileScreen {
+  @media only screen and (max-width: 739px) {
+    .header {
+      flex-wrap: wrap;
+      padding: 10px 0px;
+      .logo {
+        width: 50%;
+        order: 1;
+      }
+  
+      .nav {
+        display: none;
+      }
+  
+      .account {
+        width: 50%;
+        order: 2;
+      }
+    }
+  }
+}
+
+@mixin tabletScreen {
+  @media only screen and (min-width: 740px) and (max-width: 1110px) {
+    .header {
+      flex-wrap: wrap;
+      padding: 10px 0px;
+      .logo {
+        width: 50%;
+        order: 1;
+      }
+  
+      .nav {
+        display: none;
+      }
+  
+      .account {
+        width: 50%;
+        order: 2;
+      }
+    }
+  }
+  
+}
+
+@mixin computerScreen {
+  @media only screen and (min-width: 1111px) {
+    .header {
+      padding: 10px;
+      @include centreStyle();
+  
+      .nav {
+        @include centreStyle();
+      }
+    }
+  }
+}
