@@ -55,7 +55,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 599px;
+  padding: 100px 0px;
   background-color: #f5f7fa;
   justify-content: center;
   gap: 104px;
@@ -511,6 +511,15 @@
     width: 50%;
     order: 2;
   }
+  .content {
+    flex-direction: column;
+  }
+  .content__img {
+    order: 1;
+  }
+  .content__introduce {
+    order: 2;
+  }
 }
 @media only screen and (min-width: 740px) and (max-width: 1110px) {
   .header {
@@ -526,6 +535,15 @@
   }
   .header .account {
     width: 50%;
+    order: 2;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .content__img {
+    order: 1;
+  }
+  .content__introduce {
     order: 2;
   }
 }

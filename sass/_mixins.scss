@@ -46,6 +46,18 @@
         order: 2;
       }
     }
+
+    .content  {
+      flex-direction: column;
+      
+      &__img  {
+        order: 1;
+      }
+
+      &__introduce  {
+        order: 2;
+      }
+    }
   }
 }
 
@@ -68,6 +80,18 @@
         order: 2;
       }
     }
+
+    .content  {
+      flex-direction: column;
+
+      &__img  {
+        order: 1;
+      }
+
+      &__introduce  {
+        order: 2;
+      }
+    }
   }
   
 }
@@ -83,4 +107,5 @@
       }
     }
   }
+  
 }

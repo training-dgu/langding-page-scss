@@ -38,7 +38,6 @@
   .account {
     width: 30%;
     text-align: center;
-
     &__item {
       color: $color-black;
       padding: 10px 15px;
@@ -61,7 +60,7 @@
 
 .content {
   @include centreStyle();
-  height: 599px;
+  padding: 100px 0px;
   background-color: $main-background-color;
   justify-content: center;
   gap: 104px;
