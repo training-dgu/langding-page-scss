@@ -28,7 +28,7 @@
 }
 
 @mixin mobileScreen {
-  @media only screen and (max-width: 739px) {
+  @media (max-width: $max-width-mobile) {
     .header {
       flex-wrap: wrap;
       padding: 10px 0px;
@@ -50,7 +50,7 @@
 }
 
 @mixin tabletScreen {
-  @media only screen and (min-width: 740px) and (max-width: 1110px) {
+  @media (max-width: $max-width-tablet) {
     .header {
       flex-wrap: wrap;
       padding: 10px 0px;
@@ -73,7 +73,7 @@
 }
 
 @mixin computerScreen {
-  @media only screen and (min-width: 1111px) {
+  @media (min-width: $min-width-computer) {
     .header {
       padding: 10px;
       @include centreStyle();

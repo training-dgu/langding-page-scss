@@ -495,7 +495,7 @@
   transform: translate(230px, -30px);
 }
 
-@media only screen and (max-width: 739px) {
+@media (max-width: 739px) {
   .header {
     flex-wrap: wrap;
     padding: 10px 0px;
@@ -512,7 +512,7 @@
     order: 2;
   }
 }
-@media only screen and (min-width: 740px) and (max-width: 1110px) {
+@media (max-width: 1110px) {
   .header {
     flex-wrap: wrap;
     padding: 10px 0px;
@@ -529,7 +529,7 @@
     order: 2;
   }
 }
-@media only screen and (min-width: 1111px) {
+@media (min-width: 1111px) {
   .header {
     padding: 10px;
     display: flex;
