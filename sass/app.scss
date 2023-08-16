@@ -11,17 +11,45 @@
   width: 100%;
   display: flex;
   background-color: $main-background-color;
-
+  @include mobileScreen {
+      flex-wrap: wrap;
+      padding: 10px 0px;
+  }
+  @include  tabletScreen  {
+    flex-wrap: wrap;
+    padding: 10px 0px;
+  }
+  @include computerScreen {
+    padding: 10px;
+    @include centreStyle();
+  }
   .logo {
     width: 30%;
     padding: 10px;
     display: flex;
     justify-content: center;
+    @include  mobileScreen {
+      width: 50%;
+      order: 1;
+    }
+    @include tabletScreen {
+      width: 50%;
+      order: 1;
+    }
   }
 
   .nav {
     width: 40%;
     @include resetList();
+    @include mobileScreen {
+      display: none;
+    }
+    @include  tabletScreen  {
+      display: none;
+    }
+    @include computerScreen {
+      @include centreStyle();
+    }
 
     &__item {
       height: 100%;
@@ -38,7 +66,15 @@
   .account {
     width: 30%;
     text-align: center;
-
+    @include mobileScreen {
+      width: 50%;
+      order: 2;
+    }
+    @include tabletScreen {
+      width: 50%;
+      order: 2;
+    }
+    
     &__item {
       color: $color-black;
       padding: 10px 15px;
@@ -458,10 +494,5 @@
     }
   }
 }
-
-@include mobileScreen();
-@include tabletScreen();
-@include computerScreen();
-
 
 
