@@ -74,7 +74,7 @@
       width: 50%;
       order: 2;
     }
-    
+
     &__item {
       color: $color-black;
       padding: 10px 15px;
@@ -97,12 +97,24 @@
 
 .content {
   @include centreStyle();
-  height: 599px;
   background-color: $main-background-color;
   justify-content: center;
+  padding: 100px 0px;
   gap: 104px;
+  @include mobileScreen {
+    flex-direction: column;
+  }
+  @include tabletScreen {
+    flex-direction: column;
+  }
 
   &__introduce {
+    @include mobileScreen {
+      order: 2;
+    }
+    @include tabletScreen {
+      order: 2;
+    }
     &-title {
       @include style-title();
       font-size: 64px;
@@ -125,6 +137,12 @@
     width: 391px;
     height: 407px;
     object-fit: cover;
+    @include mobileScreen {
+      order: 1;
+    }
+    @include tabletScreen {
+      order: 1;
+    }
   }
 }
 
