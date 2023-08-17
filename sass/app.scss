@@ -97,6 +97,7 @@
 
 .content {
   @include centreStyle();
+  padding: 100px 0px;
   background-color: $main-background-color;
   justify-content: center;
   padding: 100px 0px;
